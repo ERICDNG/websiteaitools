@@ -1,0 +1,34 @@
+/* Xtra Large Device: 1500px. */
+@media only screen and (min-width: 1500px){
+	.container {max-width: 1400px;}
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+	.hero-banner, .skype-banner {margin-bottom: 50px;display: flex;	width: 100%;justify-content: center;}
+	.category__wrap li {width: 33%;}
+	.blog_full_content {margin-bottom: 80px;}
+	.footer-author, .footer-navigation, .footer-links {margin-bottom: 40px;}
+	.hero-text .searchform input {width: 95%;}
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.category__wrap li {width: 40%;	}
+	.comment_area .comment-area:nth-child(2), .comment_area .comment-area:nth-child(4) {margin-left: 0px;}
+	
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+}
+/* extra small device*/
+@media only screen and (min-width: 320px) and (max-width: 487px){ 
+	.category__wrap li {width: 80%;}
+	.hero-text h1 {font-size: 34px;}	
+}
+
